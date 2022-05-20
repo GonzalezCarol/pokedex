@@ -1,8 +1,8 @@
 # pokedex
 App to create your own pokedex using PokéAPI
-Is possible:
 
-##Search your pokemon
+## Is possible:
+##  - Search your pokemon
 
 tecnologies[React + typescrip + vite]
 
