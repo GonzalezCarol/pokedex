@@ -1,0 +1,41 @@
+.pokemon-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:25px;
+}
+
+.input-container {
+  padding: 23px;
+  position: relative;
+}
+
+.pokemon-input-name {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 23rem;
+  height: 3rem;
+  margin: 25px;
+  border-width: 1px 1px;
+}
+
+.input-container > span {
+  position: absolute;
+  transform-origin: left top;
+  transform: translate(27px, 11px) scale(0.75);
+}
+
+.pokemon-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  width: 23rem;
+  height: 2rem;
+  margin: 2rem;
+  border: 3px solid #3a4cc9;
+  background: #ffde03;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
